@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans&family=Manrope:wght@300&family=Playfair+Display&family=Poiret+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    display: block;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.header {
+    background: url(https://s0.rbk.ru/v6_top_pics/media/img/9/87/756642638995879.webp) no-repeat center top / cover;
+    height: 900px;}
+
+
+
+.header a {
+    color: white; 
+    font-family: 'Comfortaa', cursive;
+}
+.nav {
+
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+
+}
+.menu {
+display: flex;
+
+}
+.menu li {
+ margin-right: 50px;
+ margin-top: 15px;
+ margin-left: 30px;
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.cy {
+    margin-left: 630px;
+    margin-top: 70px;
+    display: flex;
+}
+
+.container ul li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.container ul li:hover::after {
+    width: 100%;
+}
+.under-nav {
+    text-transform: uppercase;
+    margin-top: 215px;
+    font-family: 'Comfortaa', cursive;
+}
+.under-nav p {
+    font-size: 45px;
+    color: white;
+    letter-spacing: 0.1px;
+}
+.under-nav h1 {
+    color: white;
+    margin-top: -6px;
+    margin-bottom: 9px;
+    letter-spacing: 0.02em;
+    font-size: 70px;
+}
+.btm {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    border: 1px solid white;
+    padding: 17px;
+    width: 180px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btm:hover {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
